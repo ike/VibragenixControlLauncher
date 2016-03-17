@@ -1,0 +1,2 @@
+C:\Users\isaac\Source\Repos\cordova-plugin-shellexec-windows\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\isaac\Source\Repos\cordova-plugin-shellexec-windows\ConsoleApplication1\ConsoleApplication1\bin\Debug\VibragenixControlLauncher.exe.config

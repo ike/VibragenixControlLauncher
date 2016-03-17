@@ -1,0 +1,9 @@
+C:\Users\isaac\Source\Repos\cordova-plugin-shellexec-windows\ConsoleApplication1\ConsoleApplication1\bin\Debug\VibragenixControlLauncher.exe.config
+C:\Users\isaac\Source\Repos\cordova-plugin-shellexec-windows\ConsoleApplication1\ConsoleApplication1\bin\Debug\VibragenixControlLauncher.exe
+C:\Users\isaac\Source\Repos\cordova-plugin-shellexec-windows\ConsoleApplication1\ConsoleApplication1\bin\Debug\VibragenixControlLauncher.pdb
+C:\Users\isaac\Source\Repos\cordova-plugin-shellexec-windows\ConsoleApplication1\ConsoleApplication1\obj\Debug\VibragenixControlLauncher.csprojResolveAssemblyReference.cache
+C:\Users\isaac\Source\Repos\cordova-plugin-shellexec-windows\ConsoleApplication1\ConsoleApplication1\obj\Debug\VibragenixControlLauncher.exe
+C:\Users\isaac\Source\Repos\cordova-plugin-shellexec-windows\ConsoleApplication1\ConsoleApplication1\obj\Debug\VibragenixControlLauncher.pdb
+C:\Users\isaac\Source\Repos\VibragenixControlLauncher\VibragenixControlLauncher\bin\Debug\VibragenixControlLauncher.exe.config
+C:\Users\isaac\Source\Repos\VibragenixControlLauncher\VibragenixControlLauncher\obj\Debug\VibragenixControlLauncher.exe
+C:\Users\isaac\Source\Repos\VibragenixControlLauncher\VibragenixControlLauncher\obj\Debug\VibragenixControlLauncher.pdb
