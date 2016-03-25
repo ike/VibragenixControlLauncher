@@ -15,25 +15,39 @@ namespace VibragenixControl
         const int SW_HIDE = 0;
         const int SW_SHOW = 5;
 
-        static string ProcessInput(string s)
+        static int ProcessInput(string[] s)
         {
-            // TODO Verify and validate the input 
-            // string.
-            return s;
+            String[] uriParams = s[0].Split(':');
+            String SessionString = uriParams[1];
+
+            // If SessionString is null, return 0
+            if (SessionString == "" || SessionString.Length < 1)
+                return 0;
+
+            // If SessionString is an integer, return the integer it as milliseconds
+            int SessionMinutes;
+            if (int.TryParse(SessionString, out SessionMinutes))
+            {
+                Console.WriteLine("Session Minutes: " + SessionMinutes);
+                return SessionMinutes * 60000;
+            }
+
+            // If SessionString is not an integer, return 0
+            else
+                return 0;
         }
 
         static void Main(string[] args)
         {
+            // Get timeout length from args, if any
+            var SessionLength = ProcessInput(args);
+
+            Console.WriteLine("VIBRAGENIX CONTROL LAUNCHER");
+            Console.WriteLine("Launching..." + SessionLength);
+            
             // Hide our console window
             var handle = GetConsoleWindow();
             ShowWindow(handle, SW_HIDE);
-
-            // Get timeout length from args, if any
-            int SessionMinutes, SessionLength;
-            if (Int32.TryParse(args[0], out SessionMinutes))
-                SessionLength = SessionMinutes * 60000;
-            else
-                SessionLength = 5000;
 
             ProcessStartInfo launchInfo = new ProcessStartInfo();
             launchInfo.FileName = "notepad.exe";
