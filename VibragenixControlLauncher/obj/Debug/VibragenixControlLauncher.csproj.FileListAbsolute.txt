@@ -13,3 +13,4 @@ C:\Users\isaac\Source\Repos\VibragenixControlLauncher\VibragenixControlLauncher\
 C:\Users\isaac\Source\Repos\VibragenixControlLauncher\VibragenixControlLauncher\obj\Debug\VibragenixControlLauncher.application
 C:\Users\isaac\Source\Repos\VibragenixControlLauncher\VibragenixControlLauncher\obj\Debug\VibragenixControlLauncher.exe
 C:\Users\isaac\Source\Repos\VibragenixControlLauncher\VibragenixControlLauncher\obj\Debug\VibragenixControlLauncher.pdb
+C:\Users\isaac\Source\Repos\VibragenixControlLauncher\VibragenixControlLauncher\obj\Debug\VibragenixControlLauncher.csprojResolveAssemblyReference.cache

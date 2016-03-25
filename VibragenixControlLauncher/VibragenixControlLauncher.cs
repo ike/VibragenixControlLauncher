@@ -24,12 +24,12 @@ namespace VibragenixControl
             if (SessionString == "" || SessionString.Length < 1)
                 return 0;
 
-            // If SessionString is an integer, return the integer it as milliseconds
-            int SessionMinutes;
-            if (int.TryParse(SessionString, out SessionMinutes))
+            // If SessionString is an integer, return the integer as milliseconds
+            int SessionSeconds;
+            if (int.TryParse(SessionString, out SessionSeconds))
             {
-                Console.WriteLine("Session Minutes: " + SessionMinutes);
-                return SessionMinutes * 60000;
+                Console.WriteLine("Session Minutes: " + SessionSeconds);
+                return SessionSeconds * 1000;
             }
 
             // If SessionString is not an integer, return 0
