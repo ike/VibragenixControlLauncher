@@ -17,8 +17,8 @@ namespace VibragenixControl
 
         static int ProcessInput(string[] s)
         {
-            String[] uriParams = s[0].Split(':');
-            String SessionString = uriParams[1];
+            string[] uriParams = s[0].Split(':');
+            string SessionString = uriParams[1];
 
             // If SessionString is null, return 0
             if (SessionString == "" || SessionString.Length < 1)
@@ -50,7 +50,7 @@ namespace VibragenixControl
             ShowWindow(handle, SW_HIDE);
 
             ProcessStartInfo launchInfo = new ProcessStartInfo();
-            launchInfo.FileName = "notepad.exe";
+            launchInfo.FileName = @"C:\Program Files\Vibragenix\Vibragenix Control Launcher\VGNX.exe";
 
             Process launch = new Process();
             launch.StartInfo = launchInfo;
@@ -63,7 +63,11 @@ namespace VibragenixControl
                 if (launch.WaitForExit(SessionLength))
                     ;// User closed Vibragenix Control
                 else
+                {
                     launch.Kill();
+                    // launch vibragenix
+                }
+                    
             }
             catch (Exception e)
             {
